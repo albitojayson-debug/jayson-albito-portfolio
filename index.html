@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111923">
+    <title>Jayson A. Albito | Digital Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <header class="navbar">
+        <a href="#home" class="logo">Jayson<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="navLinks">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section class="hero" id="home">
+
+            <!-- Decorative 3D Background -->
+            <div class="ambient-glow glow-one"></div>
+            <div class="ambient-glow glow-two"></div>
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        INFORMATION TECHNOLOGY STUDENT
+                    </p>
+
+                    <h1>
+                        Hello, I'm<br>
+                        <span class="highlight">Jayson.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm an Information Technology student interested in
+                        web development, creative design, and building useful
+                        digital experiences. I enjoy learning new technologies
+                        and turning ideas into projects through hands-on work.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-line"></span>
+                        <span>Welcome to my digital portfolio</span>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+                <div class="hero-visual profile-visual">
+                    <div class="profile-image-glow"></div>
+                    <div class="profile-image-frame">
+                        <img
+                            src="images/profile.jpg"
+                            alt="Portrait of Jayson A. Albito"
+                            class="profile-image"
+                        >
+                    </div>
+                    <div class="profile-image-caption">
+                        <span class="profile-caption-dot"></span>
+                        <span>IT Student · Creative Explorer</span>
+                    </div>
+                </div>
+            </div>
+
+            <a class="scroll-indicator" href="#projects"
+               aria-label="Scroll to projects">
+                <span class="scroll-mouse">
+                    <span class="scroll-wheel"></span>
+                </span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+            <div class="hero-index">01 / HOME</div>
+        </section>
+
+        <!-- Empty Sections: We will build these later -->
+        
+<section class="projects-section" id="projects">
+    <div class="section-container">
+
+        <div class="section-heading">
+            <p class="section-eyebrow">MY PORTFOLIO</p>
+            <h2>Selected <span>Works.</span></h2>
+            <p class="section-description">
+                A few projects that showcase what I have been learning, building, and exploring in Information Technology.
+            </p>
+            
+        </div>
+
+        
+        <div class="project-grid">
+
+          
+<!-- Virtual Machine Bash Script Project -->
+<article class="project-card">
+
+    <div class="project-preview">
+        <img
+            src="images/serverwatch.png"
+            alt="Screenshot of the ServerWatch Ubuntu server monitoring project"
+            class="project-preview-image"
+            loading="lazy">
+        <span class="project-number">02</span>
+    </div>
+
+    <div class="project-info">
+        <div class="project-title-row">
+            <h3>ServerWatch</h3>
+            <span class="project-status">Virtual Machine Project</span>
+        </div>
+
+        <p class="project-description">
+            A Bash-based server monitoring project running on Ubuntu.
+            It checks essential services and displays their status
+            through a local monitoring dashboard.
+        </p>
+
+        <div class="project-tags">
+            <span>Bash</span>
+            <span>Ubuntu Linux</span>
+            <span>System Monitoring</span>
+        </div>
+
+        
+        <p class="local-file-note">
+            Local dashboard — available only when the server is running
+            on your computer.
+        </p>
+    </div>
+
+</article>
+
+
+            <!-- Animoood Project Card -->
+            <article class="project-card">
+
+                <div class="project-preview">
+                    <img
+                        src="images/animood.png"
+                        alt="Screenshot of the Animoood project"
+                        class="project-preview-image"
+                        loading="lazy">
+                    <span class="project-number">01</span>
+                </div>
+
+                <div class="project-info">
+                    <div class="project-title-row">
+                        <h3>Animoood</h3>
+                        <span class="project-status">Personal Project</span>
+                    </div>
+
+                    <p class="project-description">
+                        A web-based platform for anime fans to explore, favorite, download, and share anime wallpapers.
+                    </p>
+
+                    <div class="project-tags">
+                        <!-- Add confirmed technologies here later -->
+                        <span>Technologies to be added</span>
+                    </div>
+
+                    <a
+                        href="file:///C:/Users/Acer/Documents/animood/index.html#welcome"
+                        class="project-link"
+                        target="_blank"
+                        rel="noopener"
+                        title="Open Animoood on this computer"
+                    >
+                        View Project <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <p class="local-file-note">
+                        Local file link — available for personal use on this computer.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Personal Portfolio Project Card -->
+            <article class="project-card">
+
+                <div class="project-preview">
+                    <img
+                        src="images/portfolio.png"
+                        alt="Screenshot of my personal digital portfolio website"
+                        class="project-preview-image"
+                        loading="lazy">
+                    <span class="project-number">03</span>
+                </div>
+
+                <div class="project-info">
+                    <div class="project-title-row">
+                        <h3>Personal Portfolio</h3>
+                        <span class="project-status">Personal Project</span>
+                    </div>
+
+                    <p class="project-description">
+                        A digital portfolio presenting my background, skills,
+                        and selected projects as an Information Technology student.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <p class="local-file-note">
+                        Portfolio website — add a live link when it is published online.
+                    </p>
+                </div>
+
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- about me -->
+        
+<!-- About Me Section -->
+<section class="about-section" id="about">
+    <div class="about-container">
+
+        <div class="about-heading">
+            <p class="section-eyebrow">GET TO KNOW ME</p>
+            <h2>Beyond the <span>code.</span></h2>
+            <p class="about-subtitle">
+                A curious mind exploring the possibilities of technology.
+            </p>
+        </div>
+
+        <div class="about-content">
+
+            <!-- Left: Introduction -->
+            <div class="about-text">
+                <p class="about-greeting">HELLO, I'M</p>
+
+                <h3>Jayson A. Albito<span>.</span></h3>
+
+                <p class="about-role">
+                    Fourth-Year Information Technology Student
+                </p>
+
+                <p>
+                    I'm a fourth-year Information Technology student with
+                    a curiosity for technology, creative design, and
+                    emerging innovations.
+                </p>
+
+                <p>
+                    I'm particularly interested in UI/UX Design and
+                    Artificial Intelligence, where creativity meets
+                    problem-solving. I enjoy exploring how technology
+                    can shape better digital experiences and open up
+                    new possibilities.
+                </p>
+
+                <p>
+                    As I continue my journey in Information Technology,
+                    my goal is to explore different areas of technology,
+                    expand my knowledge, and develop skills that will
+                    help me grow both personally and professionally.
+                </p>
+
+                <div class="about-motto">
+                    <span class="motto-line"></span>
+                    <p>Always curious. Always learning. Always exploring what's possible.</p>
+                </div>
+            </div>
+
+            <!-- Right: Interests -->
+            <div class="about-interests">
+
+                <article class="interest-card">
+                    <div class="interest-icon uiux-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 3L14.5 9.5L21 12L14.5 14.5L12 21L9.5 14.5L3 12L9.5 9.5L12 3Z"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <h4>UI/UX Design</h4>
+                        <p>
+                            Exploring thoughtful, intuitive, and
+                            user-centered digital experiences.
+                        </p>
+                    </div>
+
+                    <span class="interest-number">01</span>
+                </article>
+
+                <article class="interest-card">
+                    <div class="interest-icon ai-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="5" y="5" width="14" height="14" rx="4"
+                                  stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M9 10H9.01M15 10H15.01M9 14C10.5 16 13.5 16 15 14M12 2V5M12 19V22M2 12H5M19 12H22"
+                                  stroke="currentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <h4>Artificial Intelligence</h4>
+                        <p>
+                            Discovering new possibilities through
+                            intelligent technology and innovation.
+                        </p>
+                    </div>
+
+                    <span class="interest-number">02</span>
+                </article>
+
+                <div class="about-quote">
+                    <span class="quote-mark">“</span>
+                    <p>
+                        The future belongs to those who stay curious
+                        and keep learning.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- Right: Interests -->
+<section class="skills-section" id="skills" aria-labelledby="skills-title">
+  <div class="skills-container">
+
+    <div class="skills-heading">
+      <span class="skills-eyebrow">MY TECH STACK</span>
+
+      <h2 id="skills-title">
+        Skills <span>&</span> Tools
+      </h2>
+
+      <p>
+        Technologies I use, skills I'm developing, and tools that help
+        me turn ideas into digital experiences.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- Web Development -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"
+                stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="skill-number">01</span>
+        </div>
+
+        <h3>Web Development</h3>
+        <p>Building and styling websites with modern web technologies.</p>
+
+        <div class="skill-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node.js</span>
+        </div>
+      </article>
+
+      <!-- Database -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <ellipse cx="12" cy="5" rx="8" ry="3"
+                stroke="currentColor" stroke-width="1.7"/>
+              <path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5
+                M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"
+                stroke="currentColor" stroke-width="1.7"/>
+            </svg>
+          </div>
+          <span class="skill-number">02</span>
+        </div>
+
+        <h3>Database Management</h3>
+        <p>Working with relational databases to organize application data.</p>
+
+        <div class="skill-tags">
+          <span>MySQL</span>
+          <span>MariaDB</span>
+        </div>
+      </article>
+
+      <!-- UI/UX -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="4"
+                stroke="currentColor" stroke-width="1.7"/>
+              <path d="M3 9h18M9 9v12"
+                stroke="currentColor" stroke-width="1.7"/>
+              <circle cx="6" cy="6" r=".7" fill="currentColor"/>
+            </svg>
+          </div>
+          <span class="skill-number">03</span>
+        </div>
+
+        <h3>UI/UX Design</h3>
+        <p>Exploring clean interfaces and thoughtful digital experiences.</p>
+
+        <div class="skill-tags">
+          <span>User Interface</span>
+          <span>User Experience</span>
+          <span>Prototyping</span>
+        </div>
+      </article>
+
+      <!-- Development Tools -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="16" rx="2"
+                stroke="currentColor" stroke-width="1.7"/>
+              <path d="m7 9 3 3-3 3M13 15h4"
+                stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <span class="skill-number">04</span>
+        </div>
+
+        <h3>Development Tools</h3>
+        <p>Tools for coding, version control, and local development.</p>
+
+        <div class="skill-tags">
+          <span>VS Code</span>
+          <span>GitHub</span>
+        </div>
+      </article>
+
+      <!-- System Administration -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="8" rx="2"
+                stroke="currentColor" stroke-width="1.7"/>
+              <rect x="3" y="13" width="18" height="8" rx="2"
+                stroke="currentColor" stroke-width="1.7"/>
+              <path d="M7 7h.01M7 17h.01M11 7h6M11 17h6"
+                stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="skill-number">05</span>
+        </div>
+
+        <h3>System Administration</h3>
+        <p>Exploring Linux environments and basic system operations.</p>
+
+        <div class="skill-tags">
+          <span>Linux</span>
+          <span>Ubuntu</span>
+          <span>Terminal</span>
+        </div>
+      </article>
+
+      <!-- Artificial Intelligence -->
+      <article class="skill-card">
+        <div class="skill-card-top">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3v3M12 18v3M3 12h3M18 12h3
+                M5.64 5.64l2.12 2.12m8.48 8.48 2.12 2.12
+                m0-12.72-2.12 2.12m-8.48 8.48-2.12 2.12"
+                stroke="currentColor" stroke-width="1.7"
+                stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="5"
+                stroke="currentColor" stroke-width="1.7"/>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <span class="skill-number">06</span>
+        </div>
+
+        <h3>AI & Emerging Tech</h3>
+        <p>Exploring AI tools and how emerging technologies can solve problems.</p>
+
+        <div class="skill-tags">
+          <span>AI Tools</span>
+          <span>AI Exploration</span>
+          <span>Innovation</span>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="skills-footer">
+      <span class="skills-footer-dot"></span>
+      <p>Curious by nature. Always learning what's next.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+        
+
+<section class="contact-section" id="contact" aria-labelledby="contact-title">
+  <div class="contact-container">
+
+    <!-- Left side: Introduction -->
+    <div class="contact-intro">
+      <span class="contact-eyebrow">LET'S CONNECT</span>
+
+      <h2 id="contact-title">
+        Have an idea?<br />
+        <span>Let's talk.</span>
+      </h2>
+
+      <p class="contact-description">
+        I'm always open to connecting with people, exploring new ideas,
+        and learning about opportunities in technology.
+        Feel free to reach out!
+      </p>
+
+      <a
+        class="contact-cta"
+        href="mailto:jaysonalbito1@gmail.com"
+        aria-label="Send me an email"
+      >
+        Get in touch
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <!-- Right side: Contact cards -->
+    <div class="contact-details">
+
+      <!-- Email -->
+      <div class="contact-card">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="5" width="18" height="14" rx="2"
+              stroke="currentColor" stroke-width="1.7"/>
+            <path d="m4 7 8 6 8-6"
+              stroke="currentColor" stroke-width="1.7"
+              stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="contact-card-content">
+          <span class="contact-label">EMAIL</span>
+          <h3>Let's connect by email</h3>
+          <p>Have a question or an opportunity to share?</p>
+          <a href="mailto:jaysonalbito1@gmail.com" class="contact-link">
+            jaysonalbito1@gmail.com
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="contact-card">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M7 3h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"
+              stroke="currentColor" stroke-width="1.7"/>
+            <path d="M10 17h4"
+              stroke="currentColor" stroke-width="1.7"
+              stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="contact-card-content">
+          <span class="contact-label">PHONE</span>
+          <h3>Contact me directly</h3>
+          <p>Reach me by phone for inquiries or opportunities.</p>
+          <a href="tel:+639948891984" class="contact-link">
+            0994 889 1984
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- GitHub -->
+      <div class="contact-card">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M9 19c-4.3 1.3-4.3-2.5-6-3m12 6v-3.87
+              a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54
+              6.44-7A5.44 5.44 0 0 0 19 4.77
+              5.07 5.07 0 0 0 18.91 1S17.73.65 15 2.48
+              a13.38 13.38 0 0 0-7 0C5.27.65 4.09 1
+              4.09 1A5.07 5.07 0 0 0 4 4.77
+              a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61
+              6.44 7A3.37 3.37 0 0 0 8 18.13V22"
+              stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round"
+              transform="translate(1 0) scale(.92 1)"/>
+          </svg>
+        </div>
+
+        <div class="contact-card-content">
+          <span class="contact-label">GITHUB</span>
+          <h3>Explore my work</h3>
+          <p>Check out my projects and coding journey.</p>
+          <a
+            href="https://github.com/albitojayson-debug"
+            class="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit GitHub
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Facebook -->
+      <div class="contact-card">
+        <div class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path
+              d="M14 8h3V4h-3a5 5 0 0 0-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9a1 1 0 0 1 1-1Z"
+              stroke="currentColor" stroke-width="1.7"
+              stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="contact-card-content">
+          <span class="contact-label">FACEBOOK</span>
+          <h3>Connect with me</h3>
+          <p>Find me on Facebook and let's connect.</p>
+          <a
+            href="https://www.facebook.com/jayson.albito.2024"
+            class="contact-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Facebook
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Resume -->
+<a href="assets/resume.pdf"
+   target="_blank"
+   rel="noopener"
+   class="btn resume-btn">
+  <i class="bi bi-file-earmark-person"></i>
+  View My Resume
+</a>
+
+
+
+      <!-- Closing note -->
+      <div class="contact-note">
+        <span class="contact-status-dot"></span>
+        <p>Open to learning, collaboration, and new possibilities.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
